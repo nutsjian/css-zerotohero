@@ -1,0 +1,35 @@
+@import "normalize";
+@import "sanitize";
+
+html, body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #e1e1e1;
+}
+
+.container {
+  color: #12321313;
+  font-size: 12px;
+}
+
+:fullscreen {
+  transition: all 3s;
+}
+
+/*
+* 通过 @import 引入的 css 默认是不会通过 postcss-loader 处理。需要在 webpack 中如下配置
+*
+* loader: "css-loader", options: { importLoaders: 1 }
+*/
+@import "helloworld.css";

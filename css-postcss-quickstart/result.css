@@ -1,0 +1,21 @@
+.content {
+	color: blue;
+	transition: all 2s;
+	display: flex;
+}
+
+:-webkit-full-screen {
+	-webkit-transition: all 3s;
+	transition: all 3s;
+}
+
+:-ms-fullscreen {
+	-ms-transition: all 3s;
+	transition: all 3s;
+}
+
+:fullscreen {
+	transition: all 3s;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9sZXNzb24wMS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Q0FDQyxXQUFXO0NBQ1gsa0JBQWtCO0NBQ2xCLGFBQWE7QUFDZDs7QUFFQTtDQUNDLDBCQUFrQjtDQUFsQixrQkFBa0I7QUFDbkI7O0FBRkE7Q0FDQyxzQkFBa0I7Q0FBbEIsa0JBQWtCO0FBQ25COztBQUZBO0NBQ0Msa0JBQWtCO0FBQ25CIiwiZmlsZSI6InJlc3VsdC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY29udGVudCB7XG5cdGNvbG9yOiBibHVlO1xuXHR0cmFuc2l0aW9uOiBhbGwgMnM7XG5cdGRpc3BsYXk6IGZsZXg7XG59XG5cbjpmdWxsc2NyZWVuIHtcblx0dHJhbnNpdGlvbjogYWxsIDNzO1xufVxuIl19 */
